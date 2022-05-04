@@ -2,8 +2,22 @@
     <img alt="Azure Logo" height="80" title="Azure Logo" src=".github/logo.png">
 </h1>
 
-## 📁 Descrição do Repositório
+##  Descrição do Repositório
 Este repositório contém sub-repositórios, cujos quais cada um equivale a um laboratório de Azure.
+
+## 📁 Estrutura de Pastas
+
+```
+📁
+├─ .gitignore
+├─ README.md
+├─ vnet-hub-and-spoke-module
+|  ├─ main.tf
+|  └─ variables.tf
+└─ .github
+   ├─ azure.jpg
+   └─ logo.png
+```
 
 ## :hammer_and_wrench: Features
 Cada sub-repositório é um laboratório independente dos demais, onde cada laboratório pode requisitar uma feature diferente. Para informações mais específicas, consulte o guia dentro de cada sub-repositório para saber quais são as features necessárias.
@@ -13,3 +27,7 @@ Cada sub-repositório é um laboratório independente dos demais, onde cada labo
 
 -   [x] Azure
 -   [x] Terraform
+
+<div align="center">
+  <p>Made with ❤ by Lucas Araújo</p>
+</div>
