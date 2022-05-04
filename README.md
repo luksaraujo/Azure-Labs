@@ -12,6 +12,7 @@ Este repositório contém sub-repositórios, cujos quais cada um equivale a um l
 ├─ .gitignore
 ├─ README.md
 ├─ vnet-hub-and-spoke-module
+|  ├─ backend.tf
 |  ├─ main.tf
 |  └─ variables.tf
 └─ .github
