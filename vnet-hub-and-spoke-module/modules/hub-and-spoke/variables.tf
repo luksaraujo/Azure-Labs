@@ -16,7 +16,6 @@ variable "vnet_hub_name" {
 variable "hub_address_space" {
   type        = list(string)
   description = "Address Space da VNet Hub"
-  default     = ["10.0.0.0/16"]
 }
 
 variable "tags" {
@@ -31,12 +30,4 @@ variable "tags" {
 variable "subnets_hub" {
   type        = any
   description = "Subnets da VNet Hub"
-  default = {
-    subnet01 = {
-      address_prefixes = ["10.0.1.0/24"]
-    }
-    subnet02 = {
-      address_prefixes = ["10.0.2.0/24"]
-    }
-  }
 }
