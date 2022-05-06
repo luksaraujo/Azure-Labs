@@ -18,21 +18,6 @@ variable "tags" {
 }
 
 variable "vnets" {
-  type = any
+  type        = any
   description = "Virtual Networks que serão criadas, com suas respectivas subnets"
 }
-
-# variable "subnets_hub" {
-#   type        = any
-#   description = "Subnets da VNet Hub"
-# }
-
-# variable "vnet_hub_name" {
-#   type        = string
-#   description = "Nome da Virtual Network hub"
-# }
-
-# variable "hub_address_space" {
-#   type        = list(string)
-#   description = "Address Space da VNet Hub"
-# }
